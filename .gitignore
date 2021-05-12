@@ -1,0 +1,28 @@
+# Gradle files
+.gradle/
+build/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Android Studio
+.idea/
+*.iml
+
+# Windows OS
+/*/Thumbs.db
+
+# Apple OS
+.DS_Store
+
+# Key
+*.jks
+
+# Secret
+secret.properties
+*.gpg
+*.pgp
+*.asc
+
+# Other
+temp/

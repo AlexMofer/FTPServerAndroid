@@ -1,0 +1,28 @@
+plugins {
+    id 'com.android.library'
+}
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion '30.0.3'
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 30
+        versionCode 8
+        versionName "2.0.2"
+        consumerProguardFiles 'consumer-rules.pro'
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    compileOnly 'androidx.documentfile:documentfile:1.0.1'
+    implementation 'org.apache.ftpserver:ftpserver-core:1.1.1'
+}
+
+//apply from: "maven-central-aar.gradle"

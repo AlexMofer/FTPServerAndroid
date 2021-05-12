@@ -1,0 +1,3 @@
+rootProject.name = "FTPServerAndroid"
+include ':app'
+include ':ftpserver-android'
